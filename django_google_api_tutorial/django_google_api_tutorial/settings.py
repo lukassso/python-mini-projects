@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASR_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'django_google_api_tutorial.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASR_DIR / 'db.sqlite3',
     }
 }
 
@@ -129,9 +129,9 @@ STATIC_URL = '/static/'
 
 GOOGLE_API_KEY = ""
 
-RECAPTCHA_KEY = ""
+RECAPTCHA_PUBLIC_KEY = ""
 
-RECAPTCHA_SECRET_KEY = ""
+RECAPTCHA_PRIVATE_KEY = ""
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
