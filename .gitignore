@@ -47,3 +47,4 @@ dmypy.json
 # Ignore any other unnecessary files
 *.pyo
 *.swp
+.cursorrules
