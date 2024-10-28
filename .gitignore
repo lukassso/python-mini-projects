@@ -48,3 +48,4 @@ dmypy.json
 *.pyo
 *.swp
 .cursorrules
+pjatk/
